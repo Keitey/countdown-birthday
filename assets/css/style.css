@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second{
+    font-size: 2rem;
+}
+
+.waiting{
+    height: 50vh;
+}
+
+@media screen and (max-width: 426px) {
+    .coming-soon{
+        width: 100%;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+}
